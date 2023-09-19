@@ -1,0 +1,8 @@
+first_name=input("What's your first name?")
+first_name=first_name.upper()
+
+if first_name=="NIK":
+    print ("You may enter")
+else:
+    print ("nothing to see here")
+
