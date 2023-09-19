@@ -1,0 +1,7 @@
+carSpeed=40
+if carSpeed > 55:
+    print ("YOU ARE OVER THE SPEED LIMIT")
+elif carSpeed == 55:
+    print ("YOU ARE AT THE SPEED LIMIT")
+else:
+    print ("YOU ARE UNDER THE SPEED LIMIT")
