@@ -1,0 +1,16 @@
+import schedule
+import time as tm
+from datetime import time
+from schedule import repeat, every
+
+@repeat(every(1).second)
+def tarefa():
+    print("rode o programa para o google não travar")
+
+#schedule.every(1).seconds.do(tarefa)
+#schedule.every(1).day.at("09:00").do(tarefa)
+#schedule.every(1).second.until(time(15,9,10)).do(tarefa)
+
+while True:
+    schedule.run_pending()
+    tm.sleep(1)
